@@ -1,0 +1,56 @@
+SOFT2101 HW4 - Git Assignment Answers
+======================================
+
+STEP a: Git Config Commands
+----------------------------
+git config --global user.name "Berk Göksu"
+git config --global user.email "goksuberk34@gmail.com"
+git config --global core.editor "nano"
+git config --list
+
+OUTPUT:
+credential.helper=osxkeychain
+init.defaultbranch=main
+user.name=Berk Göksu
+user.email=goksuberk34@gmail.com
+core.editor=nano
+
+
+STEP b: Local .git Directory Contents
+--------------------------------------
+ls -la .git
+
+OUTPUT:
+total 40
+drwxr-xr-x  12 berkgoksu  staff  384 Dec 26 18:44 .
+drwxr-xr-x   4 berkgoksu  staff  128 Dec 26 18:44 ..
+-rw-r--r--   1 berkgoksu  staff   21 Dec 26 18:44 HEAD
+-rw-r--r--   1 berkgoksu  staff  303 Dec 26 18:44 config
+-rw-r--r--   1 berkgoksu  staff   73 Dec 26 18:44 description
+drwxr-xr-x  15 berkgoksu  staff  480 Dec 26 18:44 hooks
+-rw-r--r--   1 berkgoksu  staff  137 Dec 26 18:44 index
+drwxr-xr-x   3 berkgoksu  staff   96 Dec 26 18:44 info
+drwxr-xr-x   4 berkgoksu  staff  128 Dec 26 18:44 logs
+drwxr-xr-x   4 berkgoksu  staff  128 Dec 26 18:44 objects
+-rw-r--r--   1 berkgoksu  staff  112 Dec 26 18:44 packed-refs
+drwxr-xr-x   5 berkgoksu  staff  160 Dec 26 18:44 refs
+
+
+STEP c: Markdown Link Format
+-----------------------------
+
+
+STEP d: .gitignore Rules
+------------------------
+
+
+STEP f: Commits on feature-1 Branch
+------------------------------------
+
+
+STEP j: Commits on feature-2 Branch
+------------------------------------
+
+
+STEP m: Differences Between Branches
+-------------------------------------
