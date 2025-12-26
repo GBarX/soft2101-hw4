@@ -37,20 +37,64 @@ drwxr-xr-x   5 berkgoksu  staff  160 Dec 26 18:44 refs
 
 
 STEP c: Markdown Link Format
------------------------------
+----------------------------
+[Link Text](URL)
 
+Example used in README.md:
+[Işık University - Software Engineering Department](https://www.isikun.edu.tr/akademik/muhendislik-fakultesi/bolumler-ve-programlar/bilgisayar-muhendisligi/programlar/lisans-programi/yazilim-muhendisligi)
 
 STEP d: .gitignore Rules
 ------------------------
+*.class
+*.jar
+*.war
+*.ear
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+target/
+build/
+out/
+bin/
 
 
 STEP f: Commits on feature-1 Branch
 ------------------------------------
+git log --oneline feature-1
+
+0d7b21f Satifying requirement one
+8a658b2e setting up gitignore
+0c996c4 Updated README with course info and department link
+0a73892 Initial homework4.txt template
+ef17d16 Initial commit
+
+Files in hmk1 directory on feature-1 branch:
+RangePrinter.java
+
+Files in hmk1 directory on main branch (after merge):
+RangePrinter.java
 
 
 STEP j: Commits on feature-2 Branch
 ------------------------------------
-
+e8acbad satisfying requirement change two
+0d7b21f Satifying requirement one
+5458b2e setting up gitignore
+0c996c4 Updated README with course info and department link
+0a73892 Initial homework4.txt template
+ef17d16 Initial commit
 
 STEP m: Differences Between Branches
 -------------------------------------
+git diff main feature-1
+git diff main feature-2
+git diff main feature-3
+
+main contains feature-3 code (even numbers only)
+feature-1 contains original code (all numbers)
+feature-2 contains odd numbers only
+feature-3 contains even numbers only (same as main)
